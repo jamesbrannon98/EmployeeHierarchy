@@ -1,4 +1,4 @@
-This is a Java program that was developed to obtain a better understanding of classes by creating multiple instances of subclasses and superclasses.
+This is a Java program that was developed to obtain a better understanding of classes by creating multiple instances of subclasses and superclasses, building off of a previous iteration where the employees did not receive raises.
 
 Employees are represented as classes based on whether they earn commission, base pay plus commission, salary, or an hourly wage.
 The main() method then calls a specific class for each of five employees depending on their pay, storing information about each of the employees.
