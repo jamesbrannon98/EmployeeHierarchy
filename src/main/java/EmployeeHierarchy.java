@@ -74,7 +74,7 @@ abstract class Employee {
 }
 
 /* Each of the following classes extends the Employee class in order to process
-data specific to the classification of the employee*/
+data specific to the classification of the employee. */
 class CommissionEmployee extends Employee{
     private double GrossSales;
     private double CommissionRate;
