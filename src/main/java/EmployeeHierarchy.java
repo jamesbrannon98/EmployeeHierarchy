@@ -55,6 +55,9 @@ abstract class Employee {
         employees[3] = employee4;
         employee5.toString();
         employees[4] = employee5;
+        
+        /* Salaried employees get a 4% raise, 
+        else the employee receives a 2% raise. */
         for (Employee employee : employees){
             if (employee instanceof SalariedEmployee){
                 employee.raise(4); 
@@ -70,6 +73,8 @@ abstract class Employee {
     }
 }
 
+/* Each of the following classes extends the Employee class in order to process
+data specific to the classification of the employee*/
 class CommissionEmployee extends Employee{
     private double GrossSales;
     private double CommissionRate;
